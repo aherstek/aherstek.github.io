@@ -48,7 +48,7 @@ a:hover {
 .key { margin: 0 10px;
        position: relative;
 }
-.key::before { content: '&#9734';
+.key::before { content: '◆';
                position: absolute;
                left: -15px;
                color: #555;
