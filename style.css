@@ -48,11 +48,11 @@ a:hover {
 .key { margin: 0 10px;
        position: relative;
 }
-.key::before { content: '\204E';
+.key::before { content: '\&#9829';
                position: absolute;
                left: -15px;
                color: #555;
-               font-size: 7pt;
+               font-size: 10pt;
 }
 .key:first-child::before { content: '' }
 .section { border-bottom: 1px solid #ddd;
@@ -165,7 +165,7 @@ ul.skills li:last-child{
     .subsection { margin: 5px 0 0 }
     .desc { font-size: 9pt }
     
-    .contact-info { font-size: 9pt}
+    .contact-info { font-size: 8pt}
     
     ul.skills{margin: 0 10px 0 0;}
     ul.skills li{ font-size: 9pt; margin-bottom:0}
