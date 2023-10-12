@@ -1,5 +1,15 @@
 <!doctype html>
-<html lang="en">
+<!-- when planning this website, the two words that came to mind where sleek and cohesive. I wanted
+my webpage to be easy for the viewer/user to follow and appealing to look at. I watched many Youtube
+videos (I'm a visual learner) about how to set up HTML webpages specicially for resumes, which I 
+believe gave me a good grasp on how to write and format my code (along with the holy W3 schools
+resource) i will link the following youtube channels below that i watched here, and will reference
+them throughout where they gave me direct inspiration. 
+
+
+i wanted to challenge myself with this website as 1) i want to increase my grade in this class but more
+importantly, i believe this is such a valueble skill to learn and something i am finding more and more
+interest in as i progress in this class. anyways, i feel like i'm rambling lol here's my code! :) -->
     <head>
 	<!--Titling my HTML code, and referencing/linking my CSS style to this website -->
         <title>Bugs Bunny - Resume</title>
@@ -16,7 +26,7 @@
 		    experiment with font-weight in his first name for a stylized title -->
                 <h1 class="col"><span style="font-weight:700">Bugs</span> Bunny</h1>
                 <div class="contact-info col-right">
-			<!-- creating right column to display contact info, as well as a click-able link
+			<!-- <h1> being my largest text/title of my webpage, then creating right column to display contact info, as well as a click-able link
 			for the user to navigate to Bugs' "About me" webpage and his fake email, 
 			using W3 guidance for <a> attribute https://www.w3schools.com/tags/att_a_href.asp -->
                     <div>403-542-8669</div>
@@ -27,7 +37,8 @@
             <div class="section row">
 		    <!-- creating another left column ("col") to divide into a new section of his resume -->
                 <h2 class="col">Interests</h2>
-		    <!-- i wanted to try to make a bulleted list of his interests, using W3 https://www.w3schools.com/tags/tag_span.asp
+		    <!-- introducing <h2> that will be used as subheaders in my webpage.
+		    i also wanted to try to make a bulleted list of his interests, using W3 https://www.w3schools.com/tags/tag_span.asp
 		    for guidance and creating a class to create the symbol to show before each interest-->
                 <div class="section-text col-right"><span class="key"></span> <span class="key">Meadow ecosystems</span> <span class="key">Carrots</span> <span class="key">Underground burrow infrastructure &amp; design</span> <span class="key">Annoying Elmer Fudd</span> <span class="key">Causing havoc</span> <span class="key">Hanging out with Lola Bunny</span> </div>
             </div>
@@ -67,7 +78,8 @@
                 <h2 class="col">Education</h2>
                 <div class="section-text col-right">
 			<!-- In this section I wanted to challenge myself to make some different style/aesthetic
-			choices to give the words 'hierarchy' to the reader. I created a class to emphasize
+			choices to give the words 'hierarchy' to the reader. I introduce <h3> as a "sub-sub-heading"
+			that I wanted to be larger in the right column, as well I created a class to emphasize
 			certain words during this section, as well as make some classes light in colour
 			https://www.w3schools.com/tags/tag_em.asp#:~:text=The%20tag%20is%20used,an%20emphasis%2C%20using%20verbal%20stress. -->
                     <h3><span class="emph">Master of Science</span> in Wild Carrot Biology</h3>
@@ -88,6 +100,7 @@
             </div>
             <div class="section row">
                 <h2 class="col">Experience</h2>
+		   <!-- the last section of the front webpage, using <h2> to create last subheading-->
                 <div class="section-text col-right">
                     <div class="row">
                         <div class="col">
@@ -98,9 +111,12 @@
                         <div class="emph col">Comedian/Inventor/Carrot Enthusiast</div>
                         <div class="col-right light">1940 - Present</div>
                     </div>
+			<!-- using the <ul> class again to create a list but this time used bullets for each point
+			(list items will be marked with bullets by default) -->
                     <ul class="desc"</ul>
                         <li>Working alongside Elmer Fudd, Daffy Duck, Yosemite Sam, Porky Pig, Tweety Bird, Sylvester, Roadrunner and Tasmanian Devil </li>
 			<li>Current interests includes: ACME explosives, rabbit season hunting regulations, Lola Bunny</li>
-                </div>
+		</div>
+		    <!-- after closing my final div, i when closed out my body and html sections-->
     </body>
 </html>
