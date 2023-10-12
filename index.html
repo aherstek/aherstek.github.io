@@ -1,25 +1,45 @@
 <!doctype html>
 <html lang="en">
     <head>
+	<!--Titling my HTML code, and referencing/linking my CSS style to this website -->
         <title>Bugs Bunny - Resume</title>
         <link rel="stylesheet" href="style.css">
     <body>
+	<!-- linking my page using class attribute -->
         <div class="page">
+		<!-- i decided to create columns referencing W3 schools 
+		https://www.w3schools.com/css/css3_multiple_columns.asp to use throughout the webpage
+		as a way to organize the information about Bugs and guide the reader from left to right-->
             <div class="section row">
+		   <!-- creating the title of Bugs' resume using a left column ("col") (that
+		    will be used all the way down the page to keep text in line), span element and wanting to
+		    experiment with font-weight in his first name for a stylized title -->
                 <h1 class="col"><span style="font-weight:700">Bugs</span> Bunny</h1>
                 <div class="contact-info col-right">
+			<!-- creating right column to display contact info, as well as a click-able link
+			for the user to navigate to Bugs' "About me" webpage and his fake email, 
+			using W3 guidance for <a> attribute https://www.w3schools.com/tags/att_a_href.asp -->
                     <div>403-542-8669</div>
                     <div><a href="mailto:mr.peterrabbit@gmail.com">bugsbunny@gmail.com</a></div>
 		    <div><a href="aboutme.html">Learn more about me here!</a></div>
                 </div>
             </div>
             <div class="section row">
+		    <!-- creating another left column ("col") to divide into a new section of his resume -->
                 <h2 class="col">Interests</h2>
+		    <!-- i wanted to try to make a bulleted list of his interests, using W3 https://www.w3schools.com/tags/tag_span.asp
+		    for guidance and creating a class to create the symbol to show before each interest-->
                 <div class="section-text col-right"><span class="key"></span> <span class="key">Meadow ecosystems</span> <span class="key">Carrots</span> <span class="key">Underground burrow infrastructure &amp; design</span> <span class="key">Annoying Elmer Fudd</span> <span class="key">Causing havoc</span> <span class="key">Hanging out with Lola Bunny</span> </div>
             </div>
             <div class="section row">
+		  <!-- creating a new section following the same columned layout -->
                 <h2 class="col">Skills</h2>
                 <div class="section-text col-right row">
+			<!-- introducing the use of <ul> and <li> using W3 schools 
+			https://www.w3schools.com/tags/tag_ul.asp#:~:text=The%20tag%20defines%20an,use%20the%20tag.
+			and https://www.w3schools.com/html/html_lists.asp to learn about HTML lists. I chose to make an
+			'unordered' list with no bullets etc before the words. I divided the skills into 3
+			columns by creating it's own class and experimented with width of listed columns using a style-->
                     <ul class="skills" style="width:25%">
                         <li>Weapon Master</li>
                         <li>Escape Artist</li>
@@ -29,7 +49,7 @@
                         <li>Innovator Extraordinaire</li>
                         
                     </ul>
-                    <ul class="skills">
+                    <ul class="skills">style="width:25%">
                         <li>Master of Disguise</li>
                         <li>Excellent hearing</li>
                     </ul>
