@@ -177,6 +177,8 @@ minor tweaks based on the reccommendations here: https://www.youtube.com/watch?v
 and https://www.youtube.com/watch?v=PMQUN3SHDJs&ab_channel=TutorialVideo . Using
 the intial keyword applies the default (or initial) value of a property of an element as i 
 learned here: https://developer.mozilla.org/en-US/docs/Web/CSS/initial */
+
+/* ResponsiveOptionStart */
 @media print {
     .page { margin: 0;
             border: initial;
@@ -222,3 +224,4 @@ learned here: https://developer.mozilla.org/en-US/docs/Web/CSS/initial */
     ul.skills li{ font-size: 9pt; margin-bottom:0}
 
 }
+/* ResponsiveOptionEnd */
