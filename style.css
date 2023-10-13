@@ -7,7 +7,8 @@ and lists to establish a hierarchy to the viewer/user to lead their eye around t
 
 i watched this tutotial, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
-your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR */
+your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR, as well as
+naming conventions for elements/attributes/sections of code */
 
 body { margin: 0;
        padding: 0;
@@ -25,6 +26,13 @@ sections in h1/h2/h3 https://www.youtube.com/watch?v=wRNinF7YQqQ&ab_channel=BroC
 i used to structure my CSS and learn how these style elements work.
 
 I also used my beloved W3 schools with the following links:
+font weight: https://www.w3schools.com/cssref/pr_font_weight.php
+margins: https://www.w3schools.com/cssref/pr_margin.php
+font size: https://www.w3schools.com/cssref/pr_font_font-size.php
+colours: https://www.w3schools.com/cssref/pr_text_color.php
+padding: https://www.w3schools.com/cssref/pr_padding.php
+border-radius: https://www.w3schools.com/cssref/css3_pr_border-radius.php
+font-family: https://www.w3schools.com/cssref/pr_font_font-family.php
 
 */
 h1 { font-weight: 300;
@@ -52,11 +60,15 @@ h3 { font-size: 18px;
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
-    text-decoration: none;
+    text-decoration-style: wavy;
     padding:2px 4px;
     border-radius:2px;
     margin-right:-2px;
 }
+/* CSS selector - a:hover selects elements/links when the mouse is hovering over it, 
+referencing https://www.w3schools.com/cssref/sel_hover.php i decided to use this 
+for my resume's email and link to the 'about me' page to catch the viewers eye if they
+hover over these areas!*/
 a:hover {
   background-color:#FFB6C1;
   color:#fff;
