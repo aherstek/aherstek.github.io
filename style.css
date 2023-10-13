@@ -15,7 +15,7 @@ body { margin: 0;
        font-family: 'Courier New', sans-serif;
 }
 * { box-sizing: border-box;
-   -moz-box-sizing: border-box;
+   -box-sizing: content-box;
 }
 
 /*
