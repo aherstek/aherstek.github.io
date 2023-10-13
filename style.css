@@ -7,8 +7,7 @@ and lists to establish a hierarchy to the viewer/user to lead their eye around t
 
 i watched this tutotial, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
-your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR, as well as
-naming conventions for elements/attributes/sections of code */
+your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR */
 
 body { margin: 0;
        padding: 0;
@@ -26,13 +25,6 @@ sections in h1/h2/h3 https://www.youtube.com/watch?v=wRNinF7YQqQ&ab_channel=BroC
 i used to structure my CSS and learn how these style elements work.
 
 I also used my beloved W3 schools with the following links:
-font weight: https://www.w3schools.com/cssref/pr_font_weight.php
-margins: https://www.w3schools.com/cssref/pr_margin.php
-font size: https://www.w3schools.com/cssref/pr_font_font-size.php
-colours: https://www.w3schools.com/cssref/pr_text_color.php
-padding: https://www.w3schools.com/cssref/pr_padding.php
-border-radius: https://www.w3schools.com/cssref/css3_pr_border-radius.php
-font-family: https://www.w3schools.com/cssref/pr_font_font-family.php
 
 */
 h1 { font-weight: 300;
@@ -60,23 +52,15 @@ h3 { font-size: 18px;
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
+    text-decoration: none;
     padding:2px 4px;
     border-radius:2px;
     margin-right:-2px;
 }
-/* CSS selector - a:hover selects elements/links when the mouse is hovering over it, 
-referencing https://www.w3schools.com/cssref/sel_hover.php i decided to use this 
-for my resume's email and link to the 'about me' page to catch the viewers eye if they
-hover over these areas!*/
 a:hover {
   background-color:#FFB6C1;
   color:#fff;
 }
-
-/* this was by far my most challenging section of my entire assignment.
-when reading through selectors, at https://www.w3schools.com/cssref/css_selectors.php  i 
-saw the terms 'family', 'first child' and 'last child' which i became interested in, because
-the same sounded so strange in a coding sense. */ 
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
        position: relative;
@@ -141,7 +125,7 @@ ul.skills li:last-child{
 .col-right { float: right }
 
 /*
- Page Rules https://www.geeksforgeeks.org/css-page-rule/
+ Page Rules
 */
 .page { width: 1000px;
         min-height: 29.7cm;
@@ -155,30 +139,10 @@ ul.skills li:last-child{
            height: 297mm;
 }
 
-/*the @page rule, which i learned about here: https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/
-lets you specify your page box's aspects. i chose to size my page as A4, which is 
-a normal piece of paper (approx 8.5x11) */ 
 @page { size: A4;
         margin: 0;
 }
 
-/* https://www.w3schools.com/cssref/css3_pr_mediaquery.php, 
-https://developer.mozilla.org/en-US/docs/Web/CSS/@media and
-https://www.w3schools.com/css/css3_mediaqueries.asp taught me about the @media rule,
-which allows you to create different styles for different media types / devices used
-
-w3 schools reports that using this query is a popular technique to deliver a responsive web
-design to desktops, tablets, phones, etc - which is why i decided to implement it.
-because it is a resume, i chose to scale it to fit and viewed in print preview mode
-and then be printed on A4 paper, as an employer would maybe do when reviewing an applicant!
-
-i copied the similar structure/layout to my CSS code written above, with some
-minor tweaks based on the reccommendations here: https://www.youtube.com/watch?v=9eRj1802p90&ab_channel=UtahTechSE-1400Videos
-and https://www.youtube.com/watch?v=PMQUN3SHDJs&ab_channel=TutorialVideo . Using
-the intial keyword applies the default (or initial) value of a property of an element as i 
-learned here: https://developer.mozilla.org/en-US/docs/Web/CSS/initial */
-
-/* ResponsiveOptionStart */
 @media print {
     .page { margin: 0;
             border: initial;
@@ -224,4 +188,3 @@ learned here: https://developer.mozilla.org/en-US/docs/Web/CSS/initial */
     ul.skills li{ font-size: 9pt; margin-bottom:0}
 
 }
-/* ResponsiveOptionEnd */
