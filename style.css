@@ -60,7 +60,6 @@ h3 { font-size: 18px;
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
-    text-decoration-style: wavy;
     padding:2px 4px;
     border-radius:2px;
     margin-right:-2px;
@@ -73,6 +72,11 @@ a:hover {
   background-color:#FFB6C1;
   color:#fff;
 }
+
+/* this was by far my most challenging section of my entire assignment.
+when reading through selectors, at https://www.w3schools.com/cssref/css_selectors.php  i 
+saw the terms 'family', 'first child' and 'last child' which i became interested in, because
+the same sounded so strange in a coding sense. */ 
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
        position: relative;
@@ -137,7 +141,7 @@ ul.skills li:last-child{
 .col-right { float: right }
 
 /*
- Page Rules
+ Page Rules https://www.geeksforgeeks.org/css-page-rule/
 */
 .page { width: 1000px;
         min-height: 29.7cm;
@@ -151,10 +155,28 @@ ul.skills li:last-child{
            height: 297mm;
 }
 
+/*the @page rule, which i learned about here: https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/
+lets you specify your page box's aspects. i chose to size my page as A4, which is 
+a normal piece of paper (approx 8.5x11) */ 
 @page { size: A4;
         margin: 0;
 }
 
+/* https://www.w3schools.com/cssref/css3_pr_mediaquery.php, 
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media and
+https://www.w3schools.com/css/css3_mediaqueries.asp taught me about the @media rule,
+which allows you to create different styles for different media types / devices used
+
+w3 schools reports that using this query is a popular technique to deliver a responsive web
+design to desktops, tablets, phones, etc - which is why i decided to implement it.
+because it is a resume, i chose to scale it to fit and viewed in print preview mode
+and then be printed on A4 paper, as an employer would maybe do when reviewing an applicant!
+
+i copied the similar structure/layout to my CSS code written above, with some
+minor tweaks based on the reccommendations here: https://www.youtube.com/watch?v=9eRj1802p90&ab_channel=UtahTechSE-1400Videos
+and https://www.youtube.com/watch?v=PMQUN3SHDJs&ab_channel=TutorialVideo . Using
+the intial keyword applies the default (or initial) value of a property of an element as i 
+learned here: https://developer.mozilla.org/en-US/docs/Web/CSS/initial */
 @media print {
     .page { margin: 0;
             border: initial;
