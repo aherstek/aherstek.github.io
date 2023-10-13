@@ -19,6 +19,19 @@ body { margin: 0;
     -moz-box-sizing: border-box;
 }
 
+.container {
+       width: 80%
+       margin: 0 auto;
+}
+
+header {
+       background: #55d6aa;
+}
+
+nav {
+       float: right;
+}
+
 /*
 breaking down my title/heading, subheading and "sub-subheading" sections to allocate
 various style decisions. ~24:00 minute mark in this video breaks down each of the listed
