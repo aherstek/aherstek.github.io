@@ -1,3 +1,14 @@
+/* for the style of my webpage, i liked the idea of a more montone/monochromatic
+colour palette. being a rabbit, i settled on shades of green, grey and dark brown. 
+I chose typewriter-type fonts because I like them, and because I thought that
+because Bugs Bunny was born in the 1940's - he would be familiar with typewriter fonts...
+no other justifiable reason, lol. I decided on a mixture of bolded fonts, darker/lighter colours
+and lists to establish a hierarchy to the viewer/user to lead their eye around the webpage.
+
+i watched this tutotial, as mentioned in my HTML code,
+to get a better idea of CSS styles and how much variation you have when designing how
+your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR */
+
 body { margin: 0;
        padding: 0;
        background-color: #fff font-size: 12px;
@@ -8,7 +19,13 @@ body { margin: 0;
 }
 
 /*
-trying to break down largest sections
+breaking down my title/heading, subheading and "sub-subheading" sections to allocate
+various style decisions. ~24:00 minute mark in this video breaks down each of the listed
+sections in h1/h2/h3 https://www.youtube.com/watch?v=wRNinF7YQqQ&ab_channel=BroCode which
+i used to structure my CSS and learn how these style elements work.
+
+I also used my beloved W3 schools with the following links:
+
 */
 h1 { font-weight: 300;
      margin: 5px 0 0;
