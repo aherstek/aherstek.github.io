@@ -143,7 +143,7 @@ ul.skills li:last-child{
         margin: 0;
 }
 
-@media print {
+@media screen, print {
     .page { margin: 0;
             border: initial;
             border-radius: initial;
