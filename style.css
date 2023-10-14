@@ -59,16 +59,17 @@ a { color: #057f5f;
 }
 
 table, th, td {
-       brder-collapse: seperate;
+       border-collapse: seperate;
        padding: 30px;
 }
 
-
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
+https://www.w3schools.com/cssref/pr_border-collapse.php */
 table {
        background-color:#FFC0CB;
        width: 100%;
        border: 4px solid #000;
-       border style: dashed;
+       border style: outset;
        
 }
 
