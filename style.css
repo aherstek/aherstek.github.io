@@ -57,6 +57,21 @@ a { color: #057f5f;
     border-radius:2px;
     margin-right:-2px;
 }
+
+table {
+       background-color:#FFC0CB;
+       width: 100%;
+}
+
+th {
+       font weight: bold;
+       border: 1px solid #000;
+}
+
+td {
+       border: 1px solid #000;
+}
+
 a:hover {
   background-color:#FFB6C1;
   color:#fff;
