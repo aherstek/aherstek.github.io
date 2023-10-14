@@ -83,6 +83,12 @@ td {
        border: 2px solid;
 }
 
+img {
+        padding: 5px;
+        border: 8px solid #013220;
+        background-color: #E5F6DF;
+}
+
 a:hover {
   background-color:#FFB6C1;
   color:#fff;
