@@ -61,6 +61,7 @@ a { color: #057f5f;
 table, th, td {
        border-collapse: seperate;
        padding: 30px;
+       border-spacing: 20px;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
@@ -79,7 +80,7 @@ th {
 }
 
 td {
-       border: 1px solid;
+       border: 2px solid;
 }
 
 a:hover {
