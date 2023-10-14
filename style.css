@@ -83,6 +83,7 @@ td {
        border: 2px solid;
 }
 
+/* https://www.w3docs.com/snippets/css/how-to-add-border-to-image-in-css.html */ 
 img {
         padding: 5px;
         border: 8px solid #E5F6DF;
