@@ -58,18 +58,27 @@ a { color: #057f5f;
     margin-right:-2px;
 }
 
+table, th, td {
+       brder-collapse: seperate;
+       padding: 30px;
+}
+
+
 table {
        background-color:#FFC0CB;
        width: 100%;
+       border: 4px solid #000;
+       border style: dashed;
+       
 }
 
 th {
        font weight: bold;
-       border: 1px solid #000;
+       border: 1px solid;
 }
 
 td {
-       border: 1px solid #000;
+       border: 1px solid;
 }
 
 a:hover {
