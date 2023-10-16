@@ -40,7 +40,7 @@ i used to structure my CSS and learn how these style elements work.
 
 I also used my beloved W3 schools with the following links:
 border radius - https://www.w3schools.com/cssref/css3_pr_border-radius.php - border radius i thought would round 
-corners, ?
+corners, can't tell if they are rounded or not..?
 padding- https://www.w3schools.com/css/css_padding.asp, creates space around an element
 and it's content... this was a lot of trial and error for me because it's hard for me to
 think in px - i used padding in different directions (left, top, etc). 
@@ -69,11 +69,14 @@ h3 { font-size: 18px;
      line-height: 28px;
      font-family: 'Courier New', serif;
 }
-/* margin top - https://www.w3schools.com/cssref/pr_margin-top.php */
+/* margin top - https://www.w3schools.com/cssref/pr_margin-top.php 
+display - https://www.w3schools.com/css/css_inline-block.asp
+text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php
+*/
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
-    text-decoration: none;
+    text-decoration-style: wavy;
     padding:2px 4px;
     border-radius:2px;
     margin-right:-2px;
