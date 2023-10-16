@@ -5,7 +5,8 @@ because Bugs Bunny was born in the 1940's - he would be familiar with typewriter
 no other justifiable reason, lol. I decided on a mixture of bolded fonts, darker/lighter colours
 and lists to establish a hierarchy to the viewer/user to lead their eye around the webpage. 
 
-I decided to use lots of classes, https://www.w3schools.com/cssref/sel_class.php, 
+I decided to throw as much variability into my css as possible to practice and learn different
+styles and ways of doing things, and i also used lots of classes, https://www.w3schools.com/cssref/sel_class.php, 
 as it seems to be a very popular way to write CSS from what I found
 while researching for this project. I did find the CSS portion the most difficult by far, and probably spent
 the most amount of time formatting the webpage to look the way it does. The youtube channel "BroCode" aided in a lot of 
@@ -70,18 +71,21 @@ h3 { font-size: 18px;
      font-family: 'Courier New', serif;
 }
 /* margin top - https://www.w3schools.com/cssref/pr_margin-top.php 
-display - https://www.w3schools.com/css/css_inline-block.asp
-text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php
+display - https://www.w3schools.com/css/css_inline-block.asp, allows to set height and width on an element.
+text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php - i had tried wavy and dashed,
+but found them too distracting here.
 */
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
-    text-decoration-style: wavy;
+    text-decoration-style: none;
     padding:2px 4px;
     border-radius:2px;
     margin-right:-2px;
 }
 
+/* border collapse https://www.w3schools.com/cssref/pr_border-collapse.php, determines whether
+table borders should collapse into single border or seperated */
 table, th, td {
        border-collapse: seperate;
        padding: 30px;
@@ -151,7 +155,10 @@ https://www.youtube.com/watch?v=a69OMEJXaJo&ab_channel=KevinPowell and how it ca
                 padding: 0 10px;
 }
 .subsection { margin: 10px 0 5px }
-.desc { font-size: 16px; font-family: 'Courier New', sans-serif; color:#444;}
+.desc { font-size: 16px; 
+        font-family: 'Courier New', 
+        sans-serif; color:#444;
+}
 /* MenuOption starts */
 .contact-info { font-size: 18px;
                 text-align: right;
