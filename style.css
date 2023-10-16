@@ -80,27 +80,6 @@ th {
        font-size: 20px;
        border: 3px solid;     
 }
-.01 td {
-  background-color: #lavenderpink;
-  font-weight: bold;
-  font-size: 20px;
-  border: 3px solid;
-}
-tr.t1 td {
-  background-color: #linen;
-  font-size: 18px;
-  border: 2px solid;
-}
-tr.t2 td {
-  background-color: #lavenderpink;
-  font-size: 18px;
-  border: 2px solid;
-}
-tr.t3 td {
-  background-color: #linen;
-  font-size: 18px;
-  border: 2px solid;
-}
 
 /* https://www.w3docs.com/snippets/css/how-to-add-border-to-image-in-css.html */ 
 img {
