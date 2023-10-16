@@ -1,11 +1,16 @@
 /* for the style of my webpage, i liked the idea of a more montone/monochromatic
-colour palette. being a rabbit, i settled on shades of green, grey and dark brown. 
-I chose typewriter-type fonts because I like them, and because I thought that
+colour palette. being a rabbit, i settled on shades of green, grey and dark brown (though i chose to use slightly different
+colours for the secondary webpages to show variety). I chose typewriter-type fonts because I like it, and because I thought that
 because Bugs Bunny was born in the 1940's - he would be familiar with typewriter fonts...
 no other justifiable reason, lol. I decided on a mixture of bolded fonts, darker/lighter colours
-and lists to establish a hierarchy to the viewer/user to lead their eye around the webpage.
+and lists to establish a hierarchy to the viewer/user to lead their eye around the webpage. 
 
-i watched this tutotial, as mentioned in my HTML code,
+I decided to use lots of classes as it seems to be a very popular way to write CSS from what I found
+while researching for this project. I did find the CSS portion the most difficult by far, and probably spent
+the most amount of time formatting the webpage to look the way it does. The youtube channel "BroCode" aided in a lot of 
+what I implemented throughout my CSS which will be specifically mentioned throughout. 
+
+i also watched this tutotial, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
 your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR */
 
@@ -93,11 +98,15 @@ img {
         border: 8px solid #E5F6DF;
         background-color: #013220;
 }
-
+/* when making my menu at the top of each page, i liked the idea of it changing a different colour
+to make sure the reader knows it's a clickable link - implemented through W3 schools tutorial
+here https://www.w3schools.com/cssref/sel_hover.php */
 a:hover {
   background-color:#FFB6C1;
   color:#fff;
 }
+
+
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
        position: relative;
@@ -126,12 +135,17 @@ a:hover {
                 text-align: right;
 }
 /* MenuOption ends */
+/* this class is for text that i wanted in a lighter colour font and secondary font style to
+contrast the courier new font that is the primary throughout my webpage. i also wanted to make it all
+uppercase, to switch things up a little. making the .light class allowed me to
+easily switch between different font styles/colour in my html sections */
 .light { color: #aaa;letter-spacing:1px;
          font-size: 14px;
          line-height:28px;
          font-family: 'Source Sans Pro', sans-serif;
          text-transform:uppercase;
 }
+/* beginning my list classes */
 ul{
   padding-left:15px;
 }
@@ -154,7 +168,8 @@ ul.skills li:last-child{
 }
 
 /*
- Float Rules
+ Float Rules: https://developer.mozilla.org/en-US/docs/Web/CSS/float
+https://blog.hubspot.com/website/css-float
 */
 .row:before, .row:after { content: "";
                           display: table;
@@ -177,15 +192,24 @@ ul.skills li:last-child{
            border: 1px red solid;
            height: 297mm;
 }
-
+/* setting up page, determining size to be intended for A4 paper (normal
+printer paper, 8.5x11) https://www.w3.org/TR/css-page-3/, https://www.geeksforgeeks.org/css-page-rule/, 
+https://www.tutorialspoint.com/css/css_paged_media.htm */
 @page { size: A4;
         margin: 0;
 }
 
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries, 
+/* when i was learning about responsive screens (which i didn't end up
+implementing, i learned about the media option for print. I thought this would be cool to include
+as a resume webpage, as employees/yourself may want to print out your resume and you would 
+want it to scale to fit your printer paper. i used these sources to write the print CSS section: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries, 
 https://css-tricks.com/a-complete-guide-to-css-media-queries/
 */
 @media print {
+       /* https://www.w3schools.com/cssref/pr_border.php i learned about the initial property value, which means
+       that it sets this value to it's default, which is already written in your CSS above. this is helpful so you 
+       don't need to rewrite all the same values twice. */
     .page { margin: 0;
             border: initial;
             border-radius: initial;
@@ -193,7 +217,6 @@ https://css-tricks.com/a-complete-guide-to-css-media-queries/
             min-height: initial;
             box-shadow: initial;
             background: initial;
-            page-break-after: always;
     }
     .page-break{
       page-break-before: always;
