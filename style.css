@@ -75,10 +75,16 @@ table {
        border-style: outset;       
 }
 th {
-       background-color:#lavenderpink;
+       background-color:#000;
        font-weight: bold;
        font-size: 20px;
        border: 3px solid;     
+}
+td {
+       background-color:#lavenderpink;
+       font-weight: bold;
+       font-size: 18px;
+       border: 2px solid;     
 }
 
 /* https://www.w3docs.com/snippets/css/how-to-add-border-to-image-in-css.html */ 
