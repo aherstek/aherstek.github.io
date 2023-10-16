@@ -39,9 +39,15 @@ sections in h1/h2/h3 https://www.youtube.com/watch?v=wRNinF7YQqQ&ab_channel=BroC
 i used to structure my CSS and learn how these style elements work.
 
 I also used my beloved W3 schools with the following links:
-
+border radius - https://www.w3schools.com/cssref/css3_pr_border-radius.php - border radius i thought would round 
+corners, ?
+padding- https://www.w3schools.com/css/css_padding.asp, creates space around an element
+and it's content... this was a lot of trial and error for me because it's hard for me to
+think in px - i used padding in different directions (left, top, etc). 
+line heigh - https://www.w3schools.com/cssref/pr_dim_line-height.php
 */
 h1 { font-weight: 300;
+     background-color:#FAF0E6;
      margin: 5px 0 0;
      font-size: 40px;
      color:#023226;
@@ -63,6 +69,7 @@ h3 { font-size: 18px;
      line-height: 28px;
      font-family: 'Courier New', serif;
 }
+/* margin top - https://www.w3schools.com/cssref/pr_margin-top.php */
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
