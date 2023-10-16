@@ -15,12 +15,19 @@ i also watched this tutotial, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
 your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR */
 
+/* css body tag https://www.w3schools.com/tags/tag_body.asp sets up some general attributes for the body section, 
+as most browers will display the body element with default values if not specified (as learn in w3 schools) */
 body { margin: 0;
        padding: 0;
        background-color: #fff;
        font-size: 12px;
        font-family: 'Courier New', sans-serif;
 }
+/* i learned that the * sign can be used for css universal selector - selecting any and all types of elemnts in the html
+webpage https://www.geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/#:~:text=The%20asterisk%20(*)%20is%20known,the%20elements%20on%20the%20page.,
+i am using this * sign for the box sizing property, which allows us to include padding and border in the elements
+height and width https://www.w3schools.com/css/css3_box-sizing.asp . 
+*/
 * { box-sizing: border-box;
    -box-sizing: content-box;
 }
