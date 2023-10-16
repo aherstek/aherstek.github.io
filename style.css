@@ -5,7 +5,8 @@ because Bugs Bunny was born in the 1940's - he would be familiar with typewriter
 no other justifiable reason, lol. I decided on a mixture of bolded fonts, darker/lighter colours
 and lists to establish a hierarchy to the viewer/user to lead their eye around the webpage. 
 
-I decided to use lots of classes as it seems to be a very popular way to write CSS from what I found
+I decided to use lots of classes, https://www.w3schools.com/cssref/sel_class.php, 
+as it seems to be a very popular way to write CSS from what I found
 while researching for this project. I did find the CSS portion the most difficult by far, and probably spent
 the most amount of time formatting the webpage to look the way it does. The youtube channel "BroCode" aided in a lot of 
 what I implemented throughout my CSS which will be specifically mentioned throughout. 
@@ -107,6 +108,7 @@ a:hover {
   color:#fff;
 }
 
+/* introducing first and last child selectors, which i first saw on https://www.w3schools.com/cssref/sel_firstchild.php. 
 
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
@@ -118,6 +120,7 @@ a:hover {
                color: #555;
                font-size: 12pt;
 }
+/* used for my 'interests' section between the bulleted phrases */
 .key:first-child::before { content: '' }
 .section { border-bottom: 1px solid #ddd;
            padding: 10px 0 15px;
@@ -150,7 +153,9 @@ easily switch between different font styles/colour in my html sections */
 ul{
   padding-left:15px;
 }
-
+/* class for the listed section under 'skills' - both the padding/margins/spacing etc and the font preferences. once i learned of the
+first and last child, https://www.geeksforgeeks.org/how-to-select-first-and-last-td-in-a-row-with-css/, i implemented it in various classes
+such as in this list. */
 ul.skills{
   float:left;
   width:30%;
