@@ -75,11 +75,13 @@ table {
 }
 
 th {
+       font-size: 20px;
        font-weight: bold;
        border: 3px solid;
 }
 
 td {
+       font-size: 18px;
        border: 2px solid;
 }
 
