@@ -132,17 +132,25 @@ a:hover {
 /* introducing first and last child selectors, which i first saw on https://www.w3schools.com/cssref/sel_firstchild.php, then researched learning
 https://www.youtube.com/watch?v=a69OMEJXaJo&ab_channel=KevinPowell and how it can be utilized, as well as combining classes together  */
 
+/* key class is used for my "interests" section, with the first-child being used to select
+the first item in my list with the margin left at 0, then subsequent items with a margin of
+0 on top and 10px to the right and the position chosen as relative, to my understanding, allows for the
+element to be positioned according to the normal flow of the webpage https://developer.mozilla.org/en-US/docs/Web/CSS/position
+*/
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
        position: relative;
 }
+/* the before selector inserts something in front of the content of the next element. in this case,
+i wanted to use a symbol to divide the interests, instead of a dash like i had initially. i chose
+it's position to be absolute so it would stick beside the word accompanying it and not move around. for the size
+and position, i trialled and errored until i found something that looked okay. */
 .key::before { content: '◆';
                position: absolute;
                left: -15px;
                color: #555;
                font-size: 12pt;
 }
-/* used for my 'interests' section between the bulleted phrases */
 .key:first-child::before { content: '' }
 .section { border-bottom: 1px solid #ddd;
            padding: 10px 0 15px;
@@ -236,6 +244,10 @@ as a resume webpage, as employees/yourself may want to print out your resume and
 want it to scale to fit your printer paper. i used these sources to write the print CSS section: 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries, 
 https://css-tricks.com/a-complete-guide-to-css-media-queries/
+https://www.youtube.com/watch?v=CAgLAeykOyU&ab_channel=freeCodeCamp.org ~6 mins in
+but a lot of the final numbers of font size etc was with me trial and erroring it using the w3 schools
+"try it" to be able to visualize size and proportions.
+
 */
 @media print {
        /* https://www.w3schools.com/cssref/pr_border.php i learned about the initial property value, which means
@@ -277,7 +289,9 @@ https://css-tricks.com/a-complete-guide-to-css-media-queries/
     .section-text { width: 15cm; margin: 5px 0 5px;}
     .subsection { margin: 5px 0 0 }
     .desc { font-size: 9pt }
-    
+
+/* in hindsight i wish i split up his phone number/email and the different pages into different menus,
+       so i could choose to hide the menu when printed */
     .contact-info { font-size: 8pt}
     
     ul.skills{margin: 0 10px 0 0;}
