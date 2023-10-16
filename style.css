@@ -108,7 +108,8 @@ a:hover {
   color:#fff;
 }
 
-/* introducing first and last child selectors, which i first saw on https://www.w3schools.com/cssref/sel_firstchild.php. 
+/* introducing first and last child selectors, which i first saw on https://www.w3schools.com/cssref/sel_firstchild.php, then researched learning
+https://www.youtube.com/watch?v=a69OMEJXaJo&ab_channel=KevinPowell and how it can be utilized, as well as combining classes together  */
 
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
