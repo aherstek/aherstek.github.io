@@ -177,6 +177,19 @@ and position, i trialled and errored until i found something that looked okay. *
         font-family: 'Courier New', 
         sans-serif; color:#444;
 }
+
+#id1 {
+    color: #057f5f;   
+}
+#id2 {
+    color: #057f5f;   
+}
+#id3 {
+    color: #057f5f;   
+}
+#id4 {
+    color: #057f5f;   
+}
 /* MenuOption starts */
 .contact-info { font-size: 18px;
                 text-align: right;
@@ -197,9 +210,6 @@ ul{
   padding-left:15px;
 }
 
-#id1 {
-    color: #057f5f;   
-}
 /* class for the listed section under 'skills' - both the padding/margins/spacing etc and the font preferences. once i learned of the
 first and last child, https://www.geeksforgeeks.org/how-to-select-first-and-last-td-in-a-row-with-css/, i implemented it in various classes
 such as in this list. */
