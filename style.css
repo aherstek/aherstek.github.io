@@ -70,6 +70,7 @@ h3 { font-size: 18px;
      line-height: 28px;
      font-family: 'Courier New', serif;
 }
+
 /* margin top - https://www.w3schools.com/cssref/pr_margin-top.php 
 display - https://www.w3schools.com/css/css_inline-block.asp, allows to set height and width on an element.
 text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php - i had tried wavy and dashed,
@@ -194,6 +195,10 @@ easily switch between different font styles/colour in my html sections */
 /* beginning my list classes */
 ul{
   padding-left:15px;
+}
+
+#id1 {
+    color: #057f5f;   
 }
 /* class for the listed section under 'skills' - both the padding/margins/spacing etc and the font preferences. once i learned of the
 first and last child, https://www.geeksforgeeks.org/how-to-select-first-and-last-td-in-a-row-with-css/, i implemented it in various classes
