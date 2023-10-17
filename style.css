@@ -228,12 +228,6 @@ https://blog.hubspot.com/website/css-float
 }
 .row:after { clear: both }
 .col { float: left }
-
-/* using ID selector to change the colour of odd numbered list items */
-#id1 {
-    color: #FF4500;
-    font-family: 'Source Sans Pro';
-
 .col-right { float: right }
 
 /*
