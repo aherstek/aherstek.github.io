@@ -231,9 +231,8 @@ https://blog.hubspot.com/website/css-float
 
 /* using ID selector to change the colour of odd numbered list items */
 #id1 {
-    color: #FF7276;
-    font-family: 'Source Sans Pro', sans-serif;
-}
+    color: #FF4500;
+    font-family: 'Source Sans Pro';
 
 .col-right { float: right }
 
