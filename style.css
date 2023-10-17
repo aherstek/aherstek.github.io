@@ -72,7 +72,7 @@ h3 { font-size: 18px;
      line-height: 28px;
      font-family: 'Courier New', serif;
 }
-
+/* using ID to change one section of my table to be yellow, to match the text */
 #yellow {
        background-color:#FFFF00;
 }
