@@ -179,11 +179,6 @@ and position, i trialled and errored until i found something that looked okay. *
         sans-serif; color:#444;
 }
 
-/* using ID selector to change the colour of odd numbered list items */
-#id1 {
-    color: #057f5f;   
-}
-
 /* MenuOption starts */
 .contact-info { font-size: 18px;
                 text-align: right;
@@ -233,6 +228,13 @@ https://blog.hubspot.com/website/css-float
 }
 .row:after { clear: both }
 .col { float: left }
+
+/* using ID selector to change the colour of odd numbered list items */
+#id1 {
+    color: #FF7276;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .col-right { float: right }
 
 /*
