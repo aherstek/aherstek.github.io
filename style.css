@@ -72,6 +72,10 @@ h3 { font-size: 18px;
      font-family: 'Courier New', serif;
 }
 
+#yellow {
+       background-color:#FFFF00;
+}
+
 /* margin top - https://www.w3schools.com/cssref/pr_margin-top.php 
 display - https://www.w3schools.com/css/css_inline-block.asp, allows to set height and width on an element.
 text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php - i had tried wavy and dashed,
