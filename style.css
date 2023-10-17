@@ -178,6 +178,7 @@ and position, i trialled and errored until i found something that looked okay. *
         sans-serif; color:#444;
 }
 
+/* using ID selector to change the colour of odd numbered list items */
 #id1 {
     color: #057f5f;   
 }
