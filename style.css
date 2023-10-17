@@ -182,15 +182,19 @@ and position, i trialled and errored until i found something that looked okay. *
 #id1 {
     color: #057f5f;   
 }
+
 #id2 {
     color: #057f5f;   
 }
+
 #id3 {
     color: #057f5f;   
 }
+
 #id4 {
     color: #057f5f;   
 }
+
 /* MenuOption starts */
 .contact-info { font-size: 18px;
                 text-align: right;
