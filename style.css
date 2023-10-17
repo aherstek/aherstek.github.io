@@ -73,19 +73,21 @@ h3 { font-size: 18px;
 /* margin top - https://www.w3schools.com/cssref/pr_margin-top.php 
 display - https://www.w3schools.com/css/css_inline-block.asp, allows to set height and width on an element.
 text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php - i had tried wavy and dashed,
-but found them too distracting here.
+but found them too distracting here so i removed it.
 */
 h2, h3 { margin-top: 5px }
 a { color: #057f5f;
     display: inline-block;
-    text-decoration-style: none;
     padding:2px 4px;
     border-radius:2px;
     margin-right:-2px;
 }
 
-/* border collapse https://www.w3schools.com/cssref/pr_border-collapse.php, determines whether
-table borders should collapse into single border or seperated */
+/* border collapse https://www.w3schools.com/cssref/pr_border-collapse.php, 
+https://css-tricks.com/almanac/properties/b/border-collapse/,
+determines whether table borders should collapse into single border or seperated 
+
+CSS validator says that it is invalid but w3 schools says elsewise? */
 table, th, td {
        border-collapse: seperate;
        padding: 30px;
@@ -94,7 +96,11 @@ table, th, td {
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
 https://www.w3schools.com/cssref/pr_border-collapse.php
-https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css */
+https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css
+
+^ links i used to style my table/learn how. i split the styling into the entire table's
+outline and colour, and then the table header and table data so they could look slightly 
+different from each other*/
 table {
        background-color:#E5F6DF;
        width: 100%;
@@ -115,7 +121,9 @@ td {
        border: 2px solid;     
 }
 
-/* https://www.w3docs.com/snippets/css/how-to-add-border-to-image-in-css.html */ 
+/* for my images, i decided to add some padding and a small two tone border around my i
+nserted images, but other than that left them as is.
+https://www.w3docs.com/snippets/css/how-to-add-border-to-image-in-css.html */ 
 img {
         padding: 5px;
         border: 8px solid #E5F6DF;
