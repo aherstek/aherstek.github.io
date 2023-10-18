@@ -178,18 +178,22 @@ and position, i trialled and errored until i found something that looked okay. *
                color: #555;
                font-size: 12pt;
 }
-/* this is to put a space before the first word in this section
+/* this is to put a space before the first word in this section */
 .key:first-child::before { content: '' }
+/* used this section class to create a cohesive border and padding throughout, so i could then combine classes that will all match, even if their style changes. */
 .section { border-bottom: 1px solid #ddd;
            padding: 10px 0 15px;
 }
+/* as described above, using last child to give no border to the last element in the class - i don't know if it worked as i intended though? */
 .section:last-child { border: none }
+/* this class is for my text sections of certain classes, determining the look of the text in regards to size, height, margin, etc */
 .section-text { width: 80%;
                 font-size: 18px;
                 line-height: 24px;
                 margin: 10px 0 10px;
                 padding: 0 10px;
 }
+
 .subsection { margin: 10px 0 5px }
 /* this is for my paragraph-type section descriping Bugs' work experience */
 .desc { font-size: 16px; 
