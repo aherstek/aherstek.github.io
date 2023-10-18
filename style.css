@@ -10,8 +10,10 @@ styles and ways of doing things, and i also used lots of classes, https://www.w3
 as it seems to be a very popular way to write CSS from what I found
 while researching for this project. I did find the CSS portion the most difficult by far, and probably spent
 the most amount of time formatting the webpage to look the way it does. It isn't as intuitive (for me, at least) as HTML
-and a lot of the phrases used in CSS don't make sense without googling. The youtube channel "BroCode" aided in a lot of 
-what I implemented throughout my CSS which will be specifically mentioned throughout. 
+and a lot of the phrases used in CSS don't make sense without googling. The youtube channels "BroCode" and "Dani
+Krossing" aided in a lot of what I implemented throughout my CSS which will be specifically mentioned throughout. I used general videos
+such as https://www.youtube.com/watch?v=0PUmPHkQfcE&list=PL0eyrZgxdwhwP0AxnbBiDBCi53LK9uCMZ&index=7&ab_channel=DaniKrossing that explain
+all of the different CSS styles, and would try to emulate my own based off of their guidance (not explicitly copy/paste though)
 
 i also watched these tutotials, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
@@ -47,7 +49,7 @@ corners, can't tell if they are rounded or not..?
 padding- https://www.w3schools.com/css/css_padding.asp, creates space around an element
 and it's content... this was a lot of trial and error for me because it's hard for me to
 think in px - i used padding in different directions (left, top, etc). 
-line heigh - https://www.w3schools.com/cssref/pr_dim_line-height.php
+line height - https://www.w3schools.com/cssref/pr_dim_line-height.php
 */
 h1 { font-weight: 300;
      background-color:#E5F6DF;
@@ -151,7 +153,9 @@ a:hover {
 /* Menu Option Ends */ 
 
 /* introducing first and last child selectors, which i first saw on https://www.w3schools.com/cssref/sel_firstchild.php, then researched learning
-https://www.youtube.com/watch?v=a69OMEJXaJo&ab_channel=KevinPowell and how it can be utilized, as well as combining classes together  */
+https://www.youtube.com/watch?v=a69OMEJXaJo&ab_channel=KevinPowell and how it can be utilized, as well as combining classes together
+first and last child are "pseudo classes" and means "if this element is the first child of its parent". 
+:last-child means "if this element is the last child of its parent */
 
 /* key class is used for my "interests" section, with the first-child being used to select
 the first item in my list with the margin left at 0, then subsequent items with a margin of
@@ -174,6 +178,7 @@ and position, i trialled and errored until i found something that looked okay. *
                color: #555;
                font-size: 12pt;
 }
+/* this is to put a space before the first word in this section
 .key:first-child::before { content: '' }
 .section { border-bottom: 1px solid #ddd;
            padding: 10px 0 15px;
@@ -186,6 +191,7 @@ and position, i trialled and errored until i found something that looked okay. *
                 padding: 0 10px;
 }
 .subsection { margin: 10px 0 5px }
+/* this is for my paragraph-type section descriping Bugs' work experience */
 .desc { font-size: 16px; 
         font-family: 'Courier New', 
         sans-serif; color:#444;
