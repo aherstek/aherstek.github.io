@@ -9,17 +9,25 @@ where they gave me direct inspiration.
 
 i wanted to challenge myself with this website as 1) i want to increase my grade in this class but more
 importantly, i believe this is such a valueble skill to learn and something i am finding more and more
-interest in as i progress in this class. anyways, i feel like i'm rambling lol here's my code! :) -->
+interest in as i progress in this class. i opted to use a lot of <div>'s for my block elements, as it was the
+easiest way i could try and get the results i wanted. i had intitally had blocks like main, header, footer, article
+etc but was having trouble making the columned look that i liked that i have on my own resume. through research,
+i decided to try out div and it made the most sense to me... i know people argue about the use of them which i also
+understand, but to me this is the way i figured out to accomplish the results i wanted. Some opinions I read about here 
+https://www.quora.com/Why-do-web-developers-always-use-many-div-in-the-HTML explain pros and cons to using/not using them. -->
+
     <head>
-	<!--Titling my HTML code, and referencing/linking my CSS style to this website. overall,
+	<!--Titling my webpage, and referencing/linking my CSS style to this website. overall,
 	    i watched tutorials like: https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR 
 	    as this tutorial gave me a great generalized idea of "flow" for how I 
 	    wanted to write my code (for CSS and HTML), as well as how many
-	    possibilities there are in ways to style the sections of the resume and make it your own!-->
+	    possibilities there are in ways to style the sections of the resume and make it your own using div's!-->
         <title>Bugs Bunny - Resume</title>
         <link rel="stylesheet" href="style.css">
     <body>
-	<!-- linking my page using class attribute -->
+	<!-- linking my page using class attribute, https://www.w3schools.com/html/html_classes.asp, which i will use throughout. i
+	found the class option useful to make sections look the way i wanted, then could replicate it again easily. class names
+	    are case sensitive! which i learned the hard way as i couldn't figure out why it was working... good to know now! -->
        	<div class="page">
 		<!-- i decided to create columns referencing W3 schools 
 		https://www.w3schools.com/css/css3_multiple_columns.asp to use throughout the webpage
@@ -42,16 +50,16 @@ interest in as i progress in this class. anyways, i feel like i'm rambling lol h
             <div class="section row">
 		    <!-- creating another left column ("col") to divide into a new section of his resume -->
                 <h2 class="col">Interests</h2>
-		    <!-- introducing <h2> that will be used as subheaders in my webpage.
-		    i also wanted to try to make a bulleted list of his interests, using W3 https://www.w3schools.com/tags/tag_span.asp
-		    for guidance and creating a class to create the symbol to show before each interest-->
+		  <!--  i also wanted to try to make a bulleted list of his interests, using W3 https://www.w3schools.com/tags/tag_span.asp
+		    for guidance and creating a class to create the symbol to show before each interest to divide them 
+		    this div class moves the content text to the right, away from the "titles" of my resume (interests, skills etc) -->
                 <div class="section-text col-right"><span class="key"></span> <span class="key">Meadow ecosystems</span> <span class="key">Carrots</span> <span class="key">Underground burrow infrastructure &amp; design</span> <span class="key">Annoying Elmer Fudd</span> <span class="key">Causing havoc</span> <span class="key">Hanging out with Lola Bunny</span> </div>
             </div>
             <div class="section row">
-		  <!-- creating a new section following the same columned layout -->
+		  <!-- creating a new section following the same columned layout, introducing <h2> that will be used as subheaders in my webpage. -->
                 <h2 class="col">Skills</h2>
                 <div class="section-text col-right row">
-			<!-- introducing the use of <ul> and <li> using W3 schools 
+			<!-- using this class for a right column again as mentioned above, and introducing the use of <ul> and <li> using W3 schools 
 			https://www.w3schools.com/tags/tag_ul.asp#:~:text=The%20tag%20defines%20an,use%20the%20tag.
 			and https://www.w3schools.com/html/html_lists.asp to learn about HTML lists. I also used this video tutorial,
 			~22:00 minute mark, https://www.youtube.com/watch?v=PlxWf493en4&ab_channel=freeCodeCamp.org, to learn
@@ -71,31 +79,31 @@ interest in as i progress in this class. anyways, i feel like i'm rambling lol h
                         <li>Master of Disguise</li>
                         <li>Excellent hearing</li>
                     </ul>
-			<!-- i decided to use multiple </div> tags throughout my HTML code
-			as I was finding it hard to see my different sections and I would get lost. After 
-			googling, I found that there are some mixed opinions on using so many </div>'s in
-			code but as a beginner I am allowing myself to use them to break up my sections visually
-			for myself. Some opinions I read about here https://www.quora.com/Why-do-web-developers-always-use-many-div-in-the-HTML
-			explain pros and cons to using/not using them. -->
                 </div>
             </div>
             <div class="section row">
-		   <!-- starting another section following the same class as all prior sections, starting
-		    with the same 'col' class as prior as well for consistency and visual appeal-->
+		   <!-- starting another section of my resume for consistency and visual appeal-->
                 <h2 class="col">Education</h2>
                 <div class="section-text col-right">
 			<!-- In this section I wanted to challenge myself to make some different style/aesthetic
-			choices to give the words 'hierarchy' to the reader. I introduce <h3> as a "sub-sub-heading"
+			choices to give the words 'hierarchy' to the reader, because up to this point all my text was
+			either grey or green and looked kind of bland. I introduce <h3> as a "sub-sub-heading"
 			that I wanted to be larger in the right column, as well I created a class to emphasize
-			certain words during this section, as well as make some classes light in colour
-			https://www.w3schools.com/tags/tag_em.asp#:~:text=The%20tag%20is%20used,an%20emphasis%2C%20using%20verbal%20stress. -->
+			certain words during this section, as well as make some classes light in colour. i used these links for
+			guidance: https://www.w3schools.com/tags/tag_span.asp, https://webdesign.tutsplus.com/understanding-visual-hierarchy-in-web-design--webdesign-84a
+			i know i probably could have done this using tags like <em> to emphasize a word, looking back. but i was so in the zone about making
+			div's and i felt like i had a good grasp on them so i just kept going... but in the future i would use tags maybe? -->
                     <h3><span class="emph">Master of Science</span> in Wild Carrot Biology</h3>
                     <div>Warner Brothers Studios</div>
+			<!-- this class is for the two smaller sections below the school and degree -->
                     <div class="row">
+			    <!-- col light and col-right light are pretty much the same in regards to style, just one is pushed to the right 
+			    while the other stays in line with the above classes -->
                         <div class="col light">Burbank, California, USA</div>
                         <div class="col-right light">September 1941 - June 1943</div>
                     </div>
                 </div>
+		    <!-- i repeat the above html again for his second school -->
                 <div class="section-text col-right">
                     <h3><span class="emph">Bachelor of Science</span> in Vegetable Ecology</h3>
                     <div>Warner Brothers Studios</div>
@@ -108,10 +116,11 @@ interest in as i progress in this class. anyways, i feel like i'm rambling lol h
             <div class="section row">
                 <h2 class="col">Experience</h2>
 		   <!-- the last section of the front webpage, using <h2> to create last subheading-->
-                <div class="section-text col-right">
-                    <div class="row">
-                        <div class="col">
+                      <div class="section-text col-right">
+                   	<div class="row">
+                       	 <div class="col">
                             <h3>Looney Tunes - Comedian/Inventor</h3>
+				<!-- this class is for my descriptive text of his work experience -->
         			<ul class="desc" >
                      		   <li>Working alongside Elmer Fudd, Daffy Duck, Yosemite Sam, Porky Pig, Tweety Bird, Sylvester, Roadrunner and Tasmanian Devil </li>
 				   <li>Current interests includes: ACME explosives, rabbit season hunting regulations, Lola Bunny</li>
@@ -120,7 +129,10 @@ interest in as i progress in this class. anyways, i feel like i'm rambling lol h
 		    </div>
               	</div>
 	     </div>
-		    <!-- after closing my final div, i when closed out my body and html sections-->
+		    <!-- i opted to use figures for a block element to contain my photos, as they allow you to put a caption with it!
+		https://www.w3schools.com/html/html_blocks.asp,https://www.w3schools.com/tags/tag_figure.asp,
+		https://www.w3schools.com/tags/tag_figcaption.asp -->
+		
 		<!-- ImageOption #1 starts -->
 			<figure>
 				<img src="bugshome.png" alt="A poorly drawn Bugs, by yours truly">
