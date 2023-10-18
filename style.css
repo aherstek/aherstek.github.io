@@ -32,7 +32,6 @@ i am using this * sign for the box sizing property, which allows us to include p
 height and width https://www.w3schools.com/css/css3_box-sizing.asp . 
 */
 * { box-sizing: border-box;
-   -box-sizing: content-box;
 }
 
 /*
