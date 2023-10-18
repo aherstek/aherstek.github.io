@@ -15,7 +15,8 @@ what I implemented throughout my CSS which will be specifically mentioned throug
 
 i also watched these tutotials, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
-your webpage looks. https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR
+your webpage looks -https://www.youtube.com/watch?v=HGTJBPNC-Gw&ab_channel=BroCode,
+https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR
 https://www.youtube.com/watch?v=wRNinF7YQqQ */
 
 /* css body tag https://www.w3schools.com/tags/tag_body.asp sets up some general attributes for the body section, 
@@ -78,7 +79,7 @@ h3 { font-size: 18px;
 }
 
 /* margin top - https://www.w3schools.com/cssref/pr_margin-top.php 
-display - https://www.w3schools.com/css/css_inline-block.asp, allows to set height and width on an element.
+display - https://www.w3schools.com/css/css_inline-block.asp, https://www.youtube.com/watch?v=9T8uxp5hQ60&ab_channel=BroCode - allows to set height and width on an element.
 text decoration - https://www.w3schools.com/cssref/pr_text_text-decoration.php - i had tried wavy and dashed,
 but found them too distracting here so i removed it.
 */
@@ -128,6 +129,7 @@ td {
        border: 2px solid;     
 }
 
+/* FigureOption Starts */
 /* for my images, i decided to add some padding and a small two tone border around my i
 nserted images, but other than that left them as is.
 https://www.w3docs.com/snippets/css/how-to-add-border-to-image-in-css.html */ 
@@ -136,6 +138,9 @@ img {
         border: 8px solid #E5F6DF;
         background-color: #013220;
 }
+/* FigureOption Ends */
+
+/* MenuOption Starts */
 /* when making my menu at the top of each page, i liked the idea of it changing a different colour
 to make sure the reader knows it's a clickable link - implemented through W3 schools tutorial
 here https://www.w3schools.com/cssref/sel_hover.php */
@@ -143,6 +148,7 @@ a:hover {
   background-color:#FFB6C1;
   color:#fff;
 }
+/* Menu Option Ends */ 
 
 /* introducing first and last child selectors, which i first saw on https://www.w3schools.com/cssref/sel_firstchild.php, then researched learning
 https://www.youtube.com/watch?v=a69OMEJXaJo&ab_channel=KevinPowell and how it can be utilized, as well as combining classes together  */
@@ -152,7 +158,8 @@ the first item in my list with the margin left at 0, then subsequent items with 
 0 on top and 10px to the right and the position chosen as relative, to my understanding, allows for the
 element to be positioned according to the normal flow of the webpage https://developer.mozilla.org/en-US/docs/Web/CSS/position
 https://teamtreehouse.com/community/clarification-margin-0-0-10px#:~:text=Css%20margin%20short%20hand%20code,Bottom%20margin%20%3D%2010px%20or%20pixels
-*/
+learning about position: https://www.youtube.com/watch?v=Pp7UXS3P6jY&ab_channel=BroCode */
+
 .key:first-child { margin-left: 0 }
 .key { margin: 0 10px;
        position: relative;
