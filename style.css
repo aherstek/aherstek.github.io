@@ -241,10 +241,14 @@ ul.skills li:last-child{
   margin:0;
 }
 
-/*
- Float Rules: https://developer.mozilla.org/en-US/docs/Web/CSS/float
-https://blog.hubspot.com/website/css-float
-*/
+/* setting up my 'float' rules as i learned about at the following links: https://developer.mozilla.org/en-US/docs/Web/CSS/float
+https://blog.hubspot.com/website/css-float, https://www.digitalocean.com/community/tutorials/css-understanding-css-float
+i learned that the float property has a very special role in CSS and  it does something that no other CSS property can do - which is
+essentially pulling an element to a certian spot/location so other elements move around it. in my case, i created columns which
+i used throughout my webpage to structure it */
+
+/* https://css-tricks.com/almanac/selectors/a/after-and-before/ before and after to insert 'nothing' content by 
+using "" to put space, and https://developer.mozilla.org/en-US/docs/Web/CSS/display for the display-table as if it acts like a table  */
 .row:before, .row:after { content: "";
                           display: table;
 }
@@ -252,9 +256,7 @@ https://blog.hubspot.com/website/css-float
 .col { float: left }
 .col-right { float: right }
 
-/*
- Page Rules
-*/
+/* setting up my page's 'rules' that i determined */
 .page { width: 1000px;
         min-height: 29.7cm;
         margin: 1cm auto;
@@ -280,6 +282,7 @@ want it to scale to fit your printer paper. i used these sources to write the pr
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries, 
 https://css-tricks.com/a-complete-guide-to-css-media-queries/
 https://www.youtube.com/watch?v=CAgLAeykOyU&ab_channel=freeCodeCamp.org ~6 mins in
+https://www.youtube.com/watch?v=9eRj1802p90&t=184s&ab_channel=UtahTechSE-1400Videos ~3 mins in
 but a lot of the final numbers of font size etc was with me trial and erroring it using the w3 schools
 "try it" to be able to visualize size and proportions.
 
@@ -287,7 +290,8 @@ but a lot of the final numbers of font size etc was with me trial and erroring i
 @media print {
        /* https://www.w3schools.com/cssref/pr_border.php i learned about the initial property value, which means
        that it sets this value to it's default, which is already written in your CSS above. this is helpful so you 
-       don't need to rewrite all the same values twice. */
+       don't need to rewrite all the same values twice. i used the videos cited above and trial and error to determine
+       what fit best, mostly in regards to font sizes */
     .page { margin: 0;
             border: initial;
             border-radius: initial;
@@ -296,6 +300,8 @@ but a lot of the final numbers of font size etc was with me trial and erroring i
             box-shadow: initial;
             background: initial;
     }
+       /* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+       https://blog.logrocket.com/css-breakpoints-responsive-design/ */
     .page-break{
       page-break-before: always;
       padding-top:30px;
