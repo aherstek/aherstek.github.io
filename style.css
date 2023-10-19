@@ -19,7 +19,9 @@ i also watched these tutotials, as mentioned in my HTML code,
 to get a better idea of CSS styles and how much variation you have when designing how
 your webpage looks -https://www.youtube.com/watch?v=HGTJBPNC-Gw&ab_channel=BroCode,
 https://www.youtube.com/watch?v=FHb9JobDs2o&ab_channel=WEBCIFAR
-https://www.youtube.com/watch?v=wRNinF7YQqQ */
+https://www.youtube.com/watch?v=wRNinF7YQqQ
+https://www.youtube.com/watch?v=46ghtEML280&pp=ygUPZmlyc3QgY2hpbGQgY3Nz
+https://www.youtube.com/watch?v=FazgJVnrVuI&ab_channel=BrianDesign*/
 
 /* css body tag https://www.w3schools.com/tags/tag_body.asp sets up some general attributes for the body section, 
 as most browers will display the body element with default values if not specified (as learn in w3 schools) */
@@ -171,7 +173,9 @@ learning about position: https://www.youtube.com/watch?v=Pp7UXS3P6jY&ab_channel=
 /* the before selector inserts something in front of the content of the next element, 
 https://www.w3schools.com/cssref/sel_before.php in this case, i wanted to use a symbol to divide the interests, instead of a dash like i had initially. i chose
 it's position to be absolute so it would stick beside the word accompanying it and not move around. for the size
-and position, i trialled and errored until i found something that looked okay. */
+and position, i trialled and errored until i found something that looked okay.
+
+(oct 19 - i am finding on some browsers my symbol works and  others it doesn't, but do not have time to make changes and it shows up on my 2 computers well )*/
 .key::before { content: '◆';
                position: absolute;
                left: -15px;
@@ -222,8 +226,8 @@ ul{
 }
 
 /* class for the listed section under 'skills' - both the padding/margins/spacing etc and the font preferences. once i learned of the
-first and last child, https://www.geeksforgeeks.org/how-to-select-first-and-last-td-in-a-row-with-css/, i implemented it in various classes
-such as in this list. used this link to learn more about css and lists https://www.youtube.com/watch?v=jcThx0U066w&ab_channel=DaveGray  */
+first and last child, https://www.geeksforgeeks.org/how-to-select-first-and-last-td-in-a-row-with-css/, https://www.youtube.com/watch?v=a69OMEJXaJo&pp=ygUPZmlyc3QgY2hpbGQgY3Nz
+i implemented it in various classes such as in this list. used this link to learn more about css and lists https://www.youtube.com/watch?v=jcThx0U066w&ab_channel=DaveGray  */
 ul.skills{
   float:left;
   width:30%;
