@@ -97,9 +97,12 @@ a { color: #057f5f;
 
 /* border collapse https://www.w3schools.com/cssref/pr_border-collapse.php, 
 https://css-tricks.com/almanac/properties/b/border-collapse/,
-determines whether table borders should collapse into single border or seperated 
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
+determines whether table borders should collapse into single border or seperated each
+element into it's own borders
 
-CSS validator says that it is invalid but w3 schools says elsewise? */
+***CSS validator says that it is error/invalid but w3 schools says elsewise? */
+
 table, th, td {
        border-collapse: seperate;
        padding: 30px;
