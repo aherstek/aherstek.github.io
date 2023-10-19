@@ -149,7 +149,8 @@ img {
         border: 8px solid #E5F6DF;
         background-color: #013220;
 }
-/* copied the h/w from the f12 tool once isoltaing image in new tab */
+/* copied the h/w from the f12 tool once isoltaing image in new tab
+https://www.w3schools.com/tags/att_img_width.asp */
 .imgone {
        height: 954px;
          width: 430px;
