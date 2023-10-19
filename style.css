@@ -223,7 +223,7 @@ ul{
 
 /* class for the listed section under 'skills' - both the padding/margins/spacing etc and the font preferences. once i learned of the
 first and last child, https://www.geeksforgeeks.org/how-to-select-first-and-last-td-in-a-row-with-css/, i implemented it in various classes
-such as in this list. */
+such as in this list. used this link to learn more about css and lists https://www.youtube.com/watch?v=jcThx0U066w&ab_channel=DaveGray  */
 ul.skills{
   float:left;
   width:30%;
@@ -242,7 +242,8 @@ ul.skills li:last-child{
 }
 
 /* setting up my 'float' rules as i learned about at the following links: https://developer.mozilla.org/en-US/docs/Web/CSS/float
-https://blog.hubspot.com/website/css-float, https://www.digitalocean.com/community/tutorials/css-understanding-css-float
+https://blog.hubspot.com/website/css-float, https://www.digitalocean.com/community/tutorials/css-understanding-css-float,
+https://www.youtube.com/watch?v=MxEtxo_AaZ4&ab_channel=SlayingTheDragon, https://www.youtube.com/watch?v=LrdkRMZhgZg&ab_channel=KevinPowell
 i learned that the float property has a very special role in CSS and  it does something that no other CSS property can do - which is
 essentially pulling an element to a certian spot/location so other elements move around it. in my case, i created columns which
 i used throughout my webpage to structure it */
@@ -256,7 +257,8 @@ using "" to put space, and https://developer.mozilla.org/en-US/docs/Web/CSS/disp
 .col { float: left }
 .col-right { float: right }
 
-/* setting up my page's 'rules' that i determined */
+/* setting up my page's 'rules' that i determined using 
+https://www.youtube.com/watch?v=P-bDFt2wZDA&ab_channel=O%27Reilly */
 .page { width: 1000px;
         min-height: 29.7cm;
         margin: 1cm auto;
