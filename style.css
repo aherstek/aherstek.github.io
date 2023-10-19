@@ -149,29 +149,6 @@ img {
         border: 8px solid #E5F6DF;
         background-color: #013220;
 }
-/* copied the h/w from the f12 tool once isoltaing image in new tab
-https://www.w3schools.com/tags/att_img_width.asp */
-.imgone {
-       height: 430px;
-         width: 954px;
-}
-.imgtwo {
-       height: 391px;
-         width: 472px;
-}
-.imgthree {
-       height: 427px;
-         width: 565px;
-}
-.imgfour {
-       height: 370.99px;
-         width: 616.99px;
-}
-.imgfive {
-       height: 352.99px;
-         width: 520.99px;
-}
-
 /* FigureOption Ends */
 
 /* MenuOption Starts */
