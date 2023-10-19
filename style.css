@@ -149,9 +149,30 @@ img {
         border: 8px solid #E5F6DF;
         background-color: #013220;
 }
+/* copied the h/w from the f12 tool once isoltaing image in new tab */
 .imgone {
        height: 954px;
          width: 430px;
+}
+}
+.imgtwo {
+       height: 391px;
+         width: 472px;
+}
+}
+.imgthree {
+       height: 427px;
+         width: 565px;
+}
+}
+.imgfour {
+       height: 370.99px;
+         width: 616.99px;
+}
+}
+.imgfive {
+       height: 352.99px;
+         width: 520.99px;
 }
 
 /* FigureOption Ends */
